@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Usage: rcli http://url --name value --name2 value2
+
+echo curl -X GET http://url -d 'name=value' -d 'name2=value2'
